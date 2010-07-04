@@ -1,0 +1,23 @@
+.title_slide h1 {
+  font-size:180px;
+}
+
+.content h1, .content h2, .content ul li {
+  font-family:"Optima", sans-serif;
+}
+.content pre {
+  font-family:"Monaco", monospace;
+}
+.content ul li h2 {
+  font-size: 100%;
+}
+
+
+.top {
+  margin-top:70px !important;
+}
+
+.image img {
+  width: 600px !important;
+  height: 622px !important;
+}
