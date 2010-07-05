@@ -119,17 +119,19 @@
 	@@@ sql
 	SELECT "customerId" FROM "ProductList";
 
-* thats both ugly and properly quoted
+* thats both ugly named and properly quoted
 
 * special quoting can hint at field type
 
-* you see that in `AR::ConnectionAdapters::PostgreSQLAdapter`
+* this might happen in an adapter
 
 
-!SLIDE transition=fade
-!SLIDE transition=fade
+!SLIDE bullets incremental
 
 # lets just compare #
+
+* Objective:
+* get the 10<sup>th</sup> row!
 
 
 !SLIDE top bullets incremental
@@ -156,13 +158,14 @@
 
 	@@@ sql
 	SELECT TOP 1 *
-	FROM [MyTable]
+	FROM (
+		SELECT TOP 10 *
+		FROM [MyTable]
+		ORDER BY [id] DESC
+	)
 
 * even uglier than MySQL
 * there is no offset available
-* you can work around that
-* if you want to increase the ugliness
-
 
 
 !SLIDE top bullets incremental
@@ -176,5 +179,5 @@
 	FROM "MyTable"
 	LIMIT 10 OFFSET 1
 
-* we've had the quoting before
+* double quotes!
 * `LIMIT n OFFSET m` reads good

@@ -4,7 +4,7 @@
 
 # PostgreSQL #
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Covered Topics #
 
 * Databases vs. SQL

@@ -20,7 +20,7 @@
 * as standard as possible
 * INSERT, UPDATE, DELETE, SELECT
 * CREATE TABLE, ALTER TABLE, DROP TABLE
-* "being standard" is not binary
+* some are more compliant
 
 !SLIDE bullets incremental
 

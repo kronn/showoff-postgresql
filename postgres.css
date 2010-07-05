@@ -2,6 +2,11 @@
   font-size:180px;
 }
 
+.section_title h1 {
+  color:#336;
+  font-weight:bold;
+}
+
 .content h1, .content h2, .content ul li {
   font-family:"Optima", sans-serif;
 }
