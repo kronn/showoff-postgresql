@@ -177,7 +177,7 @@
 	@@@ sql
 	SELECT *
 	FROM "MyTable"
-	LIMIT 10 OFFSET 1
+	LIMIT 1 OFFSET 10
 
 * double quotes!
 * `LIMIT n OFFSET m` reads good
