@@ -145,7 +145,7 @@
 	FROM `MyTable`
 	LIMIT 10,1
 
-* that quoting character is pure beaty
+* that quoting character is pure beauty
 * `</irony>`
 * popular != good
 
